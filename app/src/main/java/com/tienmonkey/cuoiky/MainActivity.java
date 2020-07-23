@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                progressDialog.setTitle("Sign In");
+                progressDialog.setTitle("Sign Up");
                 progressDialog.setMessage("Please wait...");
                 progressDialog.show();
                 startActivity(new Intent(MainActivity.this, SignInActivity.class));

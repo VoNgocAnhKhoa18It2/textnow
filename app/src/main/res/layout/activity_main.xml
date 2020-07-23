@@ -39,7 +39,7 @@
         android:id="@+id/btnSignIn"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Sign In"
+        android:text="Sign Up"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -47,7 +47,7 @@ public class OrderActivity extends AppCompatActivity {
 
         Paper.init(this);
 
-        FirebaseApp.initializeApp(this);
+//        FirebaseApp.initializeApp(this);
 
         String number = Paper.book().read(Prevalent.PhoneKey);
         Toast.makeText(this, number, Toast.LENGTH_SHORT).show();

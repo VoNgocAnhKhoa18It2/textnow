@@ -141,6 +141,6 @@ public class HomeAdminActivity extends AppCompatActivity {
         Paper.book().destroy();
         startActivity(new Intent(getApplicationContext(), MainActivity.class)
                 .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK ));
-        System.exit(0);
+        finish();
     }
 }
